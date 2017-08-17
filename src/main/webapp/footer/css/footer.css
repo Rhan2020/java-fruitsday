@@ -1,0 +1,9 @@
+/*footer*/
+.footer{width: 100%;height:82px;;background-color: #669933;margin-top: 100px;}
+.foot_ul{width: 1100px;margin: 0 auto;}
+.foot_ul li{float:left;margin-top: 15px;padding-right: 48px;}
+
+/*foot_box*/
+.foot_box{text-align: center;margin-top: 30px;}
+.foot_box p{margin-top: 5px;}
+.foot_box p.b{font-size: 18px;}

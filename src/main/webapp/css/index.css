@@ -1,0 +1,31 @@
+/*网页宽度1100px*/
+.con{width: 1100px;margin: 0 auto;}
+/*浮动*/
+.left{float: left;}
+.right{float: right;}
+/*文字*/
+body{color: #666666;font-size: 14px;font-family: arial,"Hiragino Sans GB",sans-serif;}
+
+/*imgs*/
+.imgs .con{height:400px;position: relative;}
+.non{display: none;}
+.show{display:block ;}
+ul.imgul {width: 200px;height: 40px;text-align: center;position: absolute;right: 0px;bottom: 0px;}
+ul.imgul li {float: left;width: 20px;height: 20px;line-height: 20px;background-color: #444444;color: #FFFFFF;border-radius: 10px;margin: 10px 10px;cursor: pointer;}
+#l0{background-color: #669933;}
+
+/*fruit*/
+.fruitboxs{margin:50px auto;height: 640px;}
+.fhead{width: 100%;height: 30px;margin-bottom: 10px;}
+.fhr{width: 100%; height: 2px;background-color: #669933;margin-bottom: 5px;}
+.fser{width: 4em;height:23px;line-height: 23px;float: left;font-size: 18px;color: #669933;}
+.fmore{width: 6em;height:23px;line-height: 23px;float: right;}
+
+.fruit_box{width: 200px;height: 300px;padding: 0 10px;float:left}
+.fruit_img{width: 200px;height:200px;}
+.fruit_img img{width: 200px;height: 200px;}
+.fruit_name{width: 100%;height:30px;color: #666666;font-size: 20px;line-height: 30px;}
+.fruit_num{width: 100%;height: 30px;line-height:30px;font-size:15px;}
+.fruit_mon{width: 100%;height:35px;line-height:35px;font-size:20px;color: #669933;}
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>fruitServlet</servlet-name>
+        <servlet-class>com.fruitDayDB.servlet.FruitServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>shopServlet</servlet-name>
+        <servlet-class>com.fruitDayDB.servlet.ShopServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>userServlet</servlet-name>
+        <servlet-class>com.fruitDayDB.servlet.UserServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>selServlet</servlet-name>
+        <servlet-class>com.fruitDayDB.servlet.selServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>bsServlet</servlet-name>
+        <servlet-class>com.fruitDayDB.servlet.BSServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>fruitServlet</servlet-name>
+        <url-pattern>/FruitServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>shopServlet</servlet-name>
+        <url-pattern>/ShopServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>userServlet</servlet-name>
+        <url-pattern>/UserServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>selServlet</servlet-name>
+        <url-pattern>/SELServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>bsServlet</servlet-name>
+        <url-pattern>/BSServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

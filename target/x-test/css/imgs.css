@@ -1,0 +1,61 @@
+.fruit_info{width: 1100px;height: 480px;margin: 0 auto;padding-top: 20px;}
+
+/*图片盒子*/
+.img_box{width: 370px;height: 480px;text-align: left;float:left;margin-right: 20px;}
+.non{display: none;}
+.show{display:block ;}
+.show img{width: 370px;height: 370px;}
+
+/*图片跳转*/
+.img_to{margin-top: 10px;}
+.img_to ul li{width: 85px;height:85px;float:left;margin-right: 10px;}
+.img_to ul li img{width: 85px;height:85px;cursor: pointer;}
+
+/*文字框*/
+.fruit_text{width: 456px;height: 480px;float:left;padding-right: 20px;}
+.fruit_text hr{border: none;border-top: 1px dashed #DDD;}
+.fname{font-size: 30px;}
+.spec,.up,.fid{display: inline-block;}
+.up{margin-left: 20px;font-size: 20px;}
+.fid{margin-left: 20px;}
+#fform{margin-top: 20px;}
+/*数量*/
+.Unum{text-align: center;width: 80px;height: 20px;border: 1px solid #C0C0C0;}
+
+#numl,#numr{display:inline-block;width: 25px;cursor: pointer;}
+#numl{float: left;border-right: 1px solid #C0C0C0;}
+#numr{float:right;border-left: 1px solid #C0C0C0;}
+
+/*加入购物车*/
+.Uadd #cart{background-color: #669933;color: white;width:180px;height: 40px;font-size: 16px;cursor: pointer;font-family: 'Microsoft Yahei';}
+.Uadd{margin:20px 0 15px 0;width:180px;height: 40px;float:left;}
+.Unum,.Uaddress{display: inline-block;}
+.Unum{margin-left: 56px;}
+#sel{border: 1px solid #C0C0C0;}
+
+.fform{width: 100%;height: 136px;}
+.fform1{width: 100%;height: 30px;margin-bottom:20px;float:left;}
+/*关注*/
+.starbutton{margin:20px 0 15px 20px;width:120px;height: 26px;float:left;}
+.starbutton #star{border:1px solid #669933;color: #669933;width:180px;height: 40px;font-size: 16px;cursor: pointer;font-family: 'Microsoft Yahei';}
+
+/*信息与提示*/
+.finfo,.fpro{margin-top: 20px;}
+.finfo p,.fpro p{text-indent:2em;margin-top: 10px;}
+
+/*热卖产品*/
+.fruit_hot{width: 212px;height: 478px;border: 1px solid #DDDDDD;float: left;padding: 0 10px 0 10px;}
+.ht_l{float: left;}
+.ht_r{float: right;}
+.hf_title{width: 100%;height: 20px;margin-top: 11px;}
+.hot_fruit{width: 200px;height: 100px;margin-top: 10px;border-bottom: 1px dashed #DDD;}
+.hf_img,.hf_img img{width: 85px;height:85px;}
+.hf_img{margin-right: 20px;}
+.hf_text{width: 100px;height: 85px;}
+.hf_img,.hf_text{float: left;} 
+.hf_mon{margin-top: 5px;font-size: 12px;color: red;}
+.hf_name{font-size: 12px;}
+
+
+
+

@@ -1,0 +1,33 @@
+
+
+/*网页居中*/
+.con{width: 990px;margin: 0 auto;}
+
+.box{width: 990px;height: 480px;margin-top: 20px;}
+.head{width: 970px;height: 29px;background-color: #669933;padding: 11px 0 0 20px;}
+.text{width: 600px;height: 360px;padding:30px 50px 50px 50px;background-color: #FBF8F1;float: left;}
+.jmp{width: 290px;height: 440px;background-color: #DCE6CD;float: left;}
+
+.h01{font-size: 20px;}
+.h02{font-size:14px;color: red;}
+.xhr{width: 100%;height: 2px;background-color: #669933;margin-top: 10px;}
+
+.text_box{margin-top: 20px;}
+.main{height: 30px;width: 100%;line-height: 30px;padding: 15px 0px;}
+.name{text-align: right;width: 100px;padding-right: 10px;float:left;}
+.main input{background-color: #FFF;float:left;width: 200px;height: 100%;border: 1px solid #CCC;padding-left: 8px;}
+.xbutton input{float:left;cursor:pointer;background-color: #669933;color: #FFFFFF;width: 105px;height: 33px;font-size: 16px;margin-left: 110px;margin-top: 15px;}
+
+.fpwd{float:left;margin-top: 15px;margin-left:15px;height: 33px;line-height:33px;width: 100px;}
+.fpwd a{color: #669933;}
+
+.jmpp{color: #669933;font-size: 16px;margin-top: 100px;text-align: center;font-weight: bold;}
+.jmpp p{margin-bottom: 10px;}
+.jmpa{margin:60px auto 0 auto;width: 112px;}
+.jmpa_l{margin:70px auto 0 auto;width: 112px;}
+.jmpa a,.jmpa_l a{display: block;width: 110px;height: 30px;line-height:30px;color: #669933;text-align: center;border: 1px solid #669933;border-radius: 6px;cursor:pointer;}
+
+/*foot_box*/
+.foot_box{text-align: center;margin-top: 30px;}
+.foot_box p{margin-top: 5px;}
+.foot_box p.b{font-size: 18px;}

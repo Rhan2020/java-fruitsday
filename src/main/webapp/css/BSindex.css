@@ -1,0 +1,161 @@
+.mean{
+	width: 15%;
+	height: 100%;
+	position: fixed;
+	left: 0px;z-index: -1;
+	border-right: 2px solid #DDD;
+}
+
+.logo{
+	width: 100%;
+	height: 150px;
+	padding-top: 50px;
+	text-align:center;
+}
+.logo img{
+	width: 100px;
+	height: 100px;}
+	
+.mean_ul{
+	width: 100%;
+	min-height:100px;
+	display: block;
+}
+.mean_li{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing:10px;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #669900;
+	border-right: 2px solid #669933;
+	border-bottom: 2px solid #FFFFFF;
+}
+.mm{
+	width: 100%;
+	height: 36px;
+	color: #669933;
+	line-height: 36px;
+	text-align: center;
+	
+}
+
+.g a,.mm a{color: #669933;}
+
+.gong{
+	width: 85%;
+	min-height:100%;
+	position: fixed;
+	right: 0px;
+}
+
+.con{
+	width: 80%;
+	height: 670px;
+	margin: 0 auto;
+
+}
+
+/*全部用户*/
+.tit{
+	width: 100%;
+	height: 50px;
+	padding-top: 50px;
+	border-bottom: 1px dashed #669933;
+}
+
+.info{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px dashed #669933;
+}
+.info ul li,.tit ul li{
+	float:left;
+	width: 230px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.info ul li.i,.tit ul li.i{
+	width: 2px;
+	height: 30px;
+	margin-top:10px;
+	background-color: #669933;
+}
+
+/*添加用户*//*用户信息*/
+.form{
+	margin-top: 100px;
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.add{
+	width: 800px;
+	height: 80px;
+	line-height: 80px;
+	color: #669933;
+}
+
+.add_tit{
+	width: 200px;
+	height: 80px;
+	line-height: 80px;
+	text-align: right;
+	display: inline-block;
+}
+.add_text input{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	font-size: 20px;
+	border-bottom: 1px dashed #669933;
+}
+
+.add_sublmit{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border: 1px dashed #669933;
+	border-radius: 50px;
+	position: absolute;
+	right: 200px;
+	top: 90px;
+}
+
+.add_sublmit input{
+	width: 90px;
+	height: 90px;
+	border: 1px dashed #669933;
+	border-radius: 45px;
+	font-size: 18px;
+	color: #669933;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/*水果*/
+#t1,#t2{
+	width: 560px;
+}
+
+
+/*欢迎页面*/
+.hello{
+	width: 100%;
+	height: 200px;
+	line-height: 200px;
+	margin-top: 200px;
+	text-align: center;
+	color: #669933;
+}
+
+input.long{
+	width: 500px;
+}

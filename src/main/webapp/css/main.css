@@ -1,0 +1,23 @@
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,select,textarea,form{margin: 0; padding: 0;}
+body{font:14px/1.5 "宋体";}
+img{border:none;}
+ul,ol{list-style:none;}
+input,select,textarea{outline:none;border:none;background:none;}
+textarea{resize:none;}
+a{text-decoration:none;color: #666666;}
+/*清浮动*/
+.clearfix:after{content:"";*display:block;*clear:both;}
+.clearfix{zoom:1;}
+
+/*选择*/
+::selection {background-color:#669900; color:#ffffff; text-shadow:none;}
+::-moz-selection {background-color:#669900; color:#ffffff;text-shadow:none;}
+
+/*去掉a的下划线*/
+a {blr:expression(this.onFocus=this.blur())} /*if IE*/
+a {outline:none;}/*if 火狐等现代浏览器浏览器*/ 
+
+div.noss{background-color: #669933;}
+
+/*文字*/
+body{color: #666666;font-size: 14px;font-family: arial,"Hiragino Sans GB",sans-serif;}

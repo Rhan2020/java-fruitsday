@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - fruitday@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="fruitday">
+      <Visible>1</Visible>
+    </schema>
+    <table id="3" parent="2" name="fruits"/>
+    <table id="4" parent="2" name="hotfruits"/>
+    <table id="5" parent="2" name="root"/>
+    <table id="6" parent="2" name="shop12"/>
+    <table id="7" parent="2" name="shop15"/>
+    <table id="8" parent="2" name="shop16"/>
+    <table id="9" parent="2" name="shop18"/>
+    <table id="10" parent="2" name="user"/>
+    <column id="11" parent="3" name="fid">
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="12" parent="3" name="fname">
+      <DataType>VARCHAR(20)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="13" parent="3" name="spec">
+      <DataType>VARCHAR(20)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="14" parent="3" name="up">
+      <DataType>DOUBLE(22)|8</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="15" parent="3" name="t1">
+      <DataType>TEXT(65535)|-1</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="3" name="t2">
+      <DataType>TEXT(65535)|-1</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="17" parent="3" name="inum">
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="4" name="fid">
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="5" name="uid">
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <column id="20" parent="6" name="fid">
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="21" parent="6" name="isStar">
+      <DataType>TINYINT(3)|-6</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="6" name="isCart">
+      <DataType>TINYINT(3)|-6</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="7" name="fid">
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="7" name="isStar">
+      <DataType>TINYINT(3)|-6</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="7" name="isCart">
+      <DataType>TINYINT(3)|-6</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="8" name="fid">
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="8" name="isStar">
+      <DataType>TINYINT(3)|-6</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="8" name="isCart">
+      <DataType>TINYINT(3)|-6</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="9" name="fid">
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="9" name="isStar">
+      <DataType>TINYINT(3)|-6</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="9" name="isCart">
+      <DataType>TINYINT(3)|-6</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="10" name="id">
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="33" parent="10" name="email">
+      <DataType>VARCHAR(30)|12</DataType>
+    </column>
+    <column id="34" parent="10" name="phone">
+      <DataType>VARCHAR(11)|12</DataType>
+    </column>
+    <column id="35" parent="10" name="pwd">
+      <DataType>VARCHAR(20)|12</DataType>
+    </column>
+    <column id="36" parent="10" name="uname">
+      <DataType>VARCHAR(30)|12</DataType>
+    </column>
+    <key id="37" parent="10" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

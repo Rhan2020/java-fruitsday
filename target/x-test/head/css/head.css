@@ -1,0 +1,34 @@
+/*网页宽度1100px*/
+.con{width: 1100px;margin: 0 auto;}
+/*浮动*/
+.head_left{float: left;width: 200px;height: 30px;}
+.head_right{float: right;width: 300px;height: 30px;}
+.noLink{text-align: right;}
+/*文字*/
+body{color: #666666;font-size: 14px;font-family: arial,"Hiragino Sans GB",sans-serif;}
+/*网页头部*/
+.top{height: 30px;line-height: 30px;border-bottom: 1px solid #DEDEDE;}
+/*logo*/
+.head{height: 100px;}
+.logo{width: 340px;float: left;margin-top: 15px;}
+/*搜索框*/
+.ser{width: 451px;float: left;margin-top: 30px;}
+#ser_border{float:left; width:340px; height:40px; line-height:40px;padding-left:11px;  background:none; text-align:left; font-size:14px;border: 2px solid #669933;}
+#ser_button{floa:right;background-color: #669933;border:0; width:96px; height:40px;line-height:40px;cursor:pointer;color:white;font-size: 20px;}
+/*关注*/
+.username{width: 200px;height: 30px;float:left;text-align: center;}
+.star{width: 80px;height: 30px;float: left;line-height: 30px;padding-left: 8px;}
+.star_img{margin-top:6px;width: 18px;height:18px;background: url(../imgs/ISstar.svg);background-size: 18px 18px;float:left;}
+.toStar{width: 60px;height: 30px;float:right;text-align: right;}
+/*购物车*/
+.shopcart{width: 130px;height: 16px;border: 1px solid #DFDFDF;float:right;margin-top: 30px;padding: 11px 0px 11px 20px;}
+.cart_img{width: 18px;height: 16px;background-image: url(../imgs/cart_img.svg);background-size: 18px 16px;float:left;}
+.cart{height: 16px;line-height:16px;float:left;margin-left: 5px;position:relative;}
+.cart_to{width:18px;height:16px;font: 400 16px/16px simsun;margin-left: 15px;float:left;}
+.cart_num{width: 18px;height: 18px;line-height:18px;background: #669933;position: absolute;right: -18px;top: -18px;border-radius:10px 10px 8px 0px;color: white;text-align: center;}
+
+/*head_menu*/
+.head_menu{width:100%;height: 45px;background: #F4ECDC;}
+.hmenu_ul li{float: left;}
+.hmenu_ul li a{display: block;width: 150px;height: 45px;line-height: 45px;color: #669933;font-size: 18px;font-weight: bold;text-align:center;}
+.hmenu_ul li a:hover{background-color: #EFE5CD;}

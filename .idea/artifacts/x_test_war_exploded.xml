@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="x-test:war exploded">
+    <output-path>$PROJECT_DIR$/target/x-test</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="x-test" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.9" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/x-test/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="x-test/web/Web" />
+    </root>
+  </artifact>
+</component>
