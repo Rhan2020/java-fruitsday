@@ -42,11 +42,8 @@
 ### ☕️ 请我喝杯咖啡
 如果这个项目对你有帮助，欢迎请我喝杯咖啡 😊
 
-<div align="center">
+<p align="center">
   <img src="./readmeImg/pay.jpg" width="200" alt="微信支付" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="./readmeImg/alipay.jpg" width="200" alt="支付宝" />
-</div>
-
-<div align="center">
-  <small>微信支付 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 支付宝</small>
-</div>
+</p>
