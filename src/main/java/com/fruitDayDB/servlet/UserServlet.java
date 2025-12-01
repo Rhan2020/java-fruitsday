@@ -4,7 +4,7 @@ package com.fruitDayDB.servlet;
 import com.fruitDayDB.service.UserService;
 import com.fruitDayDB.vo.User;
 
-import javax.jws.WebService;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -65,7 +65,7 @@ public class UserServlet extends HttpServlet {
 
         List<Integer> uids=UserService.root();
 
-        if(uids.size()>0||uids!=null)
+        if(u != null && uids != null && uids.size()>0)
         {
             for(int i:uids)
             {

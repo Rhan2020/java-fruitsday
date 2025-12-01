@@ -56,7 +56,7 @@
       {
         out.print("    <div class=\"shop\">\n" +
                 "      <div class=\"s1\">\n" +
-                "        <div class=\"s1_img\"><a href=\"/FruitServlet?key=info&id="+user.getId()+"&fid="+fruit.getFid()+"\"><img src=\"img/fruits/"+fruit.getFid()+"/ (1).jpg\" /></a></div>\n" +
+                "        <div class=\"s1_img\"><a href=\"/FruitServlet?key=info&id="+user.getId()+"&fid="+fruit.getFid()+"\"><img src=\"img/fruits/"+fruit.getFid()+"/(1).jpg\" /></a></div>\n" +
                 "        <div class=\"s1_text\"><a href=\"/FruitServlet?key=info&id="+user.getId()+"&fid="+fruit.getFid()+"\">"+fruit.getFname()+"</a></div>\n" +
                 "      </div>\n" +
                 "\n" +
@@ -77,7 +77,7 @@
                 "      </div>\n" +
                 "\n" +
                 "      <div class=\"s6\">\n" +
-                "        <a href=\"/ShopServlet?key=del&uid="+user.getId()+"&fid="+fruit.getFid()+"&str=cart\">删除</a>\n" +
+                "        <a href=\"/x-test/ShopServlet?key=del&uid="+user.getId()+"&fid="+fruit.getFid()+"&str=cart\">删除</a>\n" +
                 "      </div>\n" +
                 "    </div>");
       }

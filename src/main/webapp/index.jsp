@@ -55,7 +55,7 @@
       <div class="fhr"></div>
       <div class="ser_more">
         <div class="fser">热卖专区</div>
-        <div class="fmore"><a href="">查看更多 ></a></div>
+        <div class="fmore"><a href="<%=request.getContextPath()%>/SELServlet?selkey=all">查看更多 ></a></div>
       </div>
     </div>
 

@@ -122,7 +122,7 @@ function addCart(idd,fidd)
 	var f=document.getElementById("fform");
 	if(add.value=="加入购物车")
 	{
-		f.action= "/ShopServlet?key=add&id="+id+"&fid="+fid+"&str=cart";
+		f.action= "/x-test/ShopServlet?key=add&id="+id+"&fid="+fid+"&str=cart";
 		f.submit();
 	}
 	else
@@ -136,7 +136,7 @@ function addStar(idd,fidd)
 	var add=document.getElementById("star");
 	var f=document.getElementById("fform");
 	if(add.value=="关注商品"){
-		f.action="/ShopServlet?key=add&id="+id+"&fid="+fid+"&str=star";
+		f.action="/x-test/ShopServlet?key=add&id="+id+"&fid="+fid+"&str=star";
 		f.submit();
 	}
 	else

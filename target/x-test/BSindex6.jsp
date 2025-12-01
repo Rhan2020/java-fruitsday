@@ -35,13 +35,13 @@
   <div class="mean_ul">
     <div class="mean_li" onclick="sss('u')">用户管理</div>
     <div class="user_list" id="user_list">
-      <div class="mm"><a href="/BSServlet?key=alluser">全部用户</a></div>
+      <div class="mm"><a href="/x-test/BSServlet?key=alluser">全部用户</a></div>
       <div class="mm"><a href="BSindex2.jsp">添加用户</a></div>
     </div>
     <div class="mean_li" onclick="sss('f')">商品管理</div>
     <div class="fruit_list" id="fruit_list">
-      <div class="mm"><a href="/BSServlet?key=allfruit">库存水果</a></div>
-      <div class="mm"><a href="/BSServlet?key=hotfruit">热卖水果</a></div>
+      <div class="mm"><a href="/x-test/BSServlet?key=allfruit">库存水果</a></div>
+      <div class="mm"><a href="/x-test/BSServlet?key=hotfruit">热卖水果</a></div>
       <div class="mm"><a href="BSindex5.jsp">水果入库</a></div>
     </div>
   </div>
@@ -55,7 +55,7 @@
 <div class="gong" id="x6">
   <div class="con">
     <div class="form">
-      <form action=/BSServlet?key=upfruit&fid=<%=fruit.getFid()%> method="post">
+      <form action=/x-test/BSServlet?key=upfruit&fid=<%=fruit.getFid()%> method="post">
         <div class="add">
           <span class="add_tit">水果 ：</span>
           <span class="add_text"><input type="text" name="fname" id="fname2" value=<%=fruit.getFname()%> /></span>

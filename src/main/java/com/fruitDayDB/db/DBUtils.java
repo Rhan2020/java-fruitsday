@@ -23,7 +23,7 @@ public class DBUtils {
     static{
         URL = "jdbc:mysql://127.0.0.1:3306/fruitday";
         USERNAME = "root";
-        PASSWORD = "root";
+        PASSWORD = "123456";
         DRIVER = "com.mysql.jdbc.Driver";
         try {
             Class.forName(DRIVER);
