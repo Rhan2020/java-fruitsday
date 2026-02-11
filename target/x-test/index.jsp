@@ -55,7 +55,7 @@
       <div class="fhr"></div>
       <div class="ser_more">
         <div class="fser">热卖专区</div>
-        <div class="fmore"><a href="">查看更多 ></a></div>
+        <div class="fmore"><a href="<%=request.getContextPath()%>/SELServlet?selkey=all">查看更多 ></a></div>
       </div>
     </div>
 
@@ -64,7 +64,7 @@
   {
     out.print("    <div class=\"fruit_box\">\n" +
             "      <div class=\"fruit_img\">\n" +
-            "        <a href=\""+request.getContextPath()+"/FruitServlet?key=info&id="+id+"&fid="+fruit.getFid()+"\"><img src=\"img/fruits/"+fruit.getFid()+"/ (1).jpg\" /></a>\n" +
+            "        <a href=\""+request.getContextPath()+"/FruitServlet?key=info&id="+id+"&fid="+fruit.getFid()+"\"><img src=\"img/fruits/"+fruit.getFid()+"/(1).jpg\" /></a>\n" +
             "      </div>\n" +
             "      <div class=\"fruit_name\">\n" +
             "        <a href=\""+request.getContextPath()+"/FruitServlet?key=info&id="+id+"&fid="+fruit.getFid()+"\">"+fruit.getFname()+"</a>\n" +

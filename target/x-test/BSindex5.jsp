@@ -33,13 +33,13 @@
   <div class="mean_ul">
     <div class="mean_li" onclick="sss('u')">用户管理</div>
     <div class="user_list" id="user_list">
-      <div class="mm"><a href="/BSServlet?key=alluser">全部用户</a></div>
+      <div class="mm"><a href="/x-test/BSServlet?key=alluser">全部用户</a></div>
       <div class="mm"><a href="BSindex2.jsp">添加用户</a></div>
     </div>
     <div class="mean_li" onclick="sss('f')">商品管理</div>
     <div class="fruit_list" id="fruit_list">
-      <div class="mm"><a href="/BSServlet?key=allfruit">库存水果</a></div>
-      <div class="mm"><a href="/BSServlet?key=hotfruit">热卖水果</a></div>
+      <div class="mm"><a href="/x-test/BSServlet?key=allfruit">库存水果</a></div>
+      <div class="mm"><a href="/x-test/BSServlet?key=hotfruit">热卖水果</a></div>
       <div class="mm"><a href="BSindex5.jsp">水果入库</a></div>
     </div>
   </div>
@@ -49,7 +49,7 @@
 <div class="gong" id="x5">
   <div class="con">
     <div class="form" style="margin-top: 40px;">
-      <form action="/BSServlet?key=addfruit" method="post">
+      <form action="/x-test/BSServlet?key=addfruit" method="post">
         <div class="add">
           <span class="add_tit">水果编号 ：</span>
           <span class="add_text"><input type="text" name="fid" id="fid" value="" /></span>

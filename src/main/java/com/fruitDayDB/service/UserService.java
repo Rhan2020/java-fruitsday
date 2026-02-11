@@ -40,7 +40,7 @@ public class UserService {
         UserDao userDao=new UserDaoImpl();
         User u=userDao.findByStr(str,boo);
 
-        if(pwd.equals(u.getPwd())) {
+        if(u != null && pwd.equals(u.getPwd())) {
             u.setPwd("******");
             return u;
         }

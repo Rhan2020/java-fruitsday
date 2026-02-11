@@ -29,6 +29,8 @@ public class FruitServlet extends HttpServlet {
             doInfo(req,resp);
         else if(key.equals("hot"))
             doHot(req,resp);
+        else if(key.equals("all"))
+            doAll(req,resp);
     }
 
     protected void doInfo(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -68,6 +70,14 @@ public class FruitServlet extends HttpServlet {
     protected void doHot(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         List<Fruit> fruits=FruitService.hot();
+
+        req.setAttribute("fruits", fruits);
+
+    }
+
+    protected void doAll(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        List<Fruit> fruits=FruitService.all();
 
         req.setAttribute("fruits", fruits);
 

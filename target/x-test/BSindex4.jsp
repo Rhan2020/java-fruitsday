@@ -34,13 +34,13 @@
   <div class="mean_ul">
     <div class="mean_li" onclick="sss('u')">用户管理</div>
     <div class="user_list" id="user_list">
-      <div class="mm"><a href="/BSServlet?key=alluser">全部用户</a></div>
+      <div class="mm"><a href="/x-test/BSServlet?key=alluser">全部用户</a></div>
       <div class="mm"><a href="BSindex2.jsp">添加用户</a></div>
     </div>
     <div class="mean_li" onclick="sss('f')">商品管理</div>
     <div class="fruit_list" id="fruit_list">
-      <div class="mm"><a href="/BSServlet?key=allfruit">库存水果</a></div>
-      <div class="mm"><a href="/BSServlet?key=hotfruit">热卖水果</a></div>
+      <div class="mm"><a href="/x-test/BSServlet?key=allfruit">库存水果</a></div>
+      <div class="mm"><a href="/x-test/BSServlet?key=hotfruit">热卖水果</a></div>
       <div class="mm"><a href="BSindex5.jsp">水果入库</a></div>
     </div>
   </div>
@@ -70,13 +70,13 @@
         for(Fruit fruit:fruits) {
           out.print("    <div class=\"info\">\n" +
                   "      <ul>\n" +
-                  "        <li><a href=\"/BSServlet?key=findfruit&fid="+fruit.getFid()+"\">"+fruit.getFname()+"</a></li>\n" +
+                  "        <li><a href=\"/x-test/BSServlet?key=findfruit&fid="+fruit.getFid()+"\">"+fruit.getFname()+"</a></li>\n" +
                   "        <li class=\"i\">&nbsp;</li>\n" +
-                  "        <li><a href=\"/BSServlet?key=findfruit&fid="+fruit.getFid()+"\">"+fruit.getSpec()+"</a></li>\n" +
+                  "        <li><a href=\"/x-test/BSServlet?key=findfruit&fid="+fruit.getFid()+"\">"+fruit.getSpec()+"</a></li>\n" +
                   "        <li class=\"i\">&nbsp;</li>\n" +
-                  "        <li><a href=\"/BSServlet?key=findfruit&fid="+fruit.getFid()+"\">"+fruit.getUp()+"</a></li>\n" +
+                  "        <li><a href=\"/x-test/BSServlet?key=findfruit&fid="+fruit.getFid()+"\">"+fruit.getUp()+"</a></li>\n" +
                   "        <li class=\"i\">&nbsp;</li>\n" +
-                  "        <li><a href=\"/BSServlet?key=delfruit&fid="+fruit.getFid()+"\">删除</a></li>\n" +
+                  "        <li><a href=\"/x-test/BSServlet?key=delfruit&fid="+fruit.getFid()+"\">删除</a></li>\n" +
                   "      </ul>\n" +
                   "    </div>");
         }

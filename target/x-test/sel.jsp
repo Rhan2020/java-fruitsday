@@ -38,7 +38,7 @@
         for(Fruit fruits:hotFruits)
         {
           out.print("    <div class=\"hot_fruit\">\n" +
-                  "      <div class=\"hf_img\"><a href=\""+request.getContextPath()+"/FruitServlet?key=info&id="+user.getId()+"&fid="+fruits.getFid()+"\"><img src=\"img/fruits/"+fruits.getFid()+"/ (1).jpg\" /></a></div>\n" +
+                  "      <div class=\"hf_img\"><a href=\""+request.getContextPath()+"/FruitServlet?key=info&id="+user.getId()+"&fid="+fruits.getFid()+"\"><img src=\"img/fruits/"+fruits.getFid()+"/(1).jpg\" /></a></div>\n" +
                   "      <div c=\"hf_text\">\n" +
                   "        <div class=\"hf_name\"><a href=\""+request.getContextPath()+"/FruitServlet?key=info&id="+user.getId()+"&fid="+fruits.getFid()+"\">"+fruits.getFname()+"</a></div>\n" +
                   "        <div class=\"hf_mon\">￥<span>"+fruits.getUp()+"</span></div>\n" +
@@ -60,10 +60,10 @@
             <a href=<%=request.getContextPath()%>/SELServlet?selkey=all class="selkey sgreen">不限</a>
             <a href=<%=request.getContextPath()%>/SELServlet?selkey=ser&ser=绿奇异果 class="selkey">绿奇异果</a>
             <a href=<%=request.getContextPath()%>/SELServlet?selkey=ser&ser=阳光金果 class="selkey">阳光金果</a>
-            <a href="/SELServlet?selkey=ser&ser=苹果" class="selkey">苹果</a>
-            <a href="/SELServlet?selkey=ser&ser=梨" class="selkey">梨</a>
-            <a href="/SELServlet?selkey=ser&ser=葡萄" class="selkey">葡萄</a>
-              <a href=<%=request.getContextPath()%>/SELServlet?selkey=ser&ser=果 class="selkey">苹果</a>
+            <a href="<%=request.getContextPath()%>/SELServlet?selkey=ser&ser=苹果" class="selkey">苹果</a>
+            <a href="<%=request.getContextPath()%>/SELServlet?selkey=ser&ser=梨" class="selkey">梨</a>
+            <a href="<%=request.getContextPath()%>/SELServlet?selkey=ser&ser=葡萄" class="selkey">葡萄</a>
+              <a href="<%=request.getContextPath()%>/SELServlet?selkey=ser&ser=果" class="selkey">苹果</a>
           </li>
           <%--<li class="selfruits_li">--%>
             <%--产地：--%>
@@ -73,10 +73,10 @@
           <%--</li>--%>
           <li class="selfruits_li">
             价格：
-            <a href="/SELServlet?selkey=all" class="selkey sgreen">不限</a>
-            <a href="/SELServlet?selkey=mon&ser=a" class="selkey">100以下</a>
-            <a href="/SELServlet?selkey=mon&ser=b" class="selkey">100~300</a>
-            <a href="/SELServlet?selkey=mon&ser=c" class="selkey">300以上</a>
+            <a href="<%=request.getContextPath()%>/SELServlet?selkey=all" class="selkey sgreen">不限</a>
+            <a href="<%=request.getContextPath()%>/SELServlet?selkey=mon&ser=a" class="selkey">100以下</a>
+            <a href="<%=request.getContextPath()%>/SELServlet?selkey=mon&ser=b" class="selkey">100~300</a>
+            <a href="<%=request.getContextPath()%>/SELServlet?selkey=mon&ser=c" class="selkey">300以上</a>
           </li>
           <%--<li class="selfruits_li" id="sort">--%>
             <%--排序：--%>
@@ -97,7 +97,7 @@
             {
               out.print("        <div class=\"fruit_box\">\n" +
                       "          <div class=\"fruit_img\">\n" +
-                      "            <a href=\""+request.getContextPath()+"/FruitServlet?key=info&id="+ user.getId()+"&fid="+fruit.getFid()+"\"><img src=\"img/fruits/"+fruit.getFid()+"/ (1).jpg\" /></a>\n" +
+                      "            <a href=\""+request.getContextPath()+"/FruitServlet?key=info&id="+ user.getId()+"&fid="+fruit.getFid()+"\"><img src=\"img/fruits/"+fruit.getFid()+"/(1).jpg\" /></a>\n" +
                       "          </div>\n" +
                       "          <div class=\"fruit_name\">\n" +
                       "            <a href=\""+request.getContextPath()+"/FruitServlet?key=info&id="+ user.getId()+"&fid="+fruit.getFid()+"\">"+fruit.getFname()+"</a>\n" +

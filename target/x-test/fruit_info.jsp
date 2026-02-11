@@ -41,7 +41,7 @@
       String cname="show";
       for(int i=1;i<fruit.getInum()+1;i++)
       {
-        out.println("<div id=\"p"+(i-1)+"\" class=\"" + cname + "\"><img src=\"img/fruits/" + fruit.getFid() + "/ (" + i + ").jpg\" /></div>");
+        out.println("<div id=\"p"+(i-1)+"\" class=\"" + cname + "\"><img src=\"img/fruits/" + fruit.getFid() + "/(" + i + ").jpg\" /></div>");
         cname="non";
       }
     %>
@@ -51,7 +51,7 @@
         <%
           for(int i=1;i<fruit.getInum()+1;i++)
           {
-            out.print("<li><img src=\"img/fruits/"+fruit.getFid()+"/ ("+i+").jpg\" id=\"s"+(i-1)+"\" onMouseMove=\"himg(this.id)\"/></li>");
+            out.print("<li><img src=\"img/fruits/"+fruit.getFid()+"/("+i+").jpg\" id=\"s"+(i-1)+"\" onMouseMove=\"himg(this.id)\"/></li>");
           }
         %>
       </ul>
@@ -104,7 +104,7 @@
       for(Fruit fruits:hotFruits)
       {
         out.print("    <div class=\"hot_fruit\">\n" +
-                "      <div class=\"hf_img\"><a href=\""+request.getContextPath()+"/FruitServlet?key=info&id="+user.getId()+"&fid="+fruits.getFid()+"\"><img src=\"img/fruits/"+fruits.getFid()+"/ (1).jpg\" /></a></div>\n" +
+                "      <div class=\"hf_img\"><a href=\""+request.getContextPath()+"/FruitServlet?key=info&id="+user.getId()+"&fid="+fruits.getFid()+"\"><img src=\"img/fruits/"+fruits.getFid()+"/(1).jpg\" /></a></div>\n" +
                 "      <div c=\"hf_text\">\n" +
                 "        <div class=\"hf_name\"><a href=\""+request.getContextPath()+"/FruitServlet?key=info&id="+user.getId()+"&fid="+fruits.getFid()+"\">"+fruits.getFname()+"</a></div>\n" +
                 "        <div class=\"hf_mon\">现货：￥<span>"+fruits.getUp()+"</span></div>\n" +

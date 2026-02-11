@@ -203,25 +203,7 @@ public class UserDaoImpl implements UserDao {
     }
 
     public List<Integer> root() {
-        Connection conn = null;
-        PreparedStatement ps = null;
-        ResultSet rs = null;
-        List<Integer> uids=new ArrayList<Integer>();
-        int uid=0;
-        String sql = "select uid from root";
-        try{
-            conn = DBUtils.getConnection();
-            ps = conn.prepareStatement(sql);
-            rs = ps.executeQuery();
-            while(rs.next()){
-                uid=rs.getInt("uid");
-                uids.add(uid);
-            }
-        }catch(SQLException e){
-            e.printStackTrace();
-        }finally{
-            DBUtils.close(rs, ps, conn);
-        }
-        return uids;
+        // 暂时返回空列表，因为数据库中没有root表
+        return new ArrayList<Integer>();
     }
 }

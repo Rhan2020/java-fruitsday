@@ -46,7 +46,7 @@ public class selServlet extends HttpServlet {
 
         req.setAttribute("selFruits", allFruits);
 
-        req.getRequestDispatcher(req.getContextPath()+"sel.jsp").forward(req, resp);
+        req.getRequestDispatcher("/sel.jsp").forward(req, resp);
     }
 
     protected void doOut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
